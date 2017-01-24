@@ -21,7 +21,6 @@
     var RT3 = Math.sqrt(3);
     var NODE_POS = [
         [0,-1],
-        [RT3/4,-1/4],
         [RT3/2,-1/2],
         [RT3/2,1/2],
         [0,1],
@@ -31,7 +30,15 @@
         [RT3/4,1/4],
         [-RT3/4,1/4],
         [-RT3/4,-1/4],
-        [0,0]];
+        [0,0],
+        // Extended glyphs
+        [RT3/4,-1/4],
+        [1,0],
+        [RT3/4,1/4],
+        [-RT3/4,1/4],
+        [-1,0],
+        [-RT3/4,-1/4]]
+        ;
 
     function getNodePosX(glyphCenterX, glyphRadius, nodeIndex)
     {
