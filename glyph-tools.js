@@ -41,7 +41,7 @@
     
         // Finish inner hex
         [0, -1/2],
-        [0, 1/2],
+        [0, 1/2]]
         ;
 
     function getNodePosX(glyphCenterX, glyphRadius, nodeIndex)
