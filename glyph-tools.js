@@ -31,13 +31,17 @@
         [-RT3/4,1/4],
         [-RT3/4,-1/4],
         [0,0],
-        // Extended glyphs
-        [RT3/4,-1/4],
-        [1,0],
-        [RT3/4,1/4],
-        [-RT3/4,1/4],
-        [-1,0],
-        [-RT3/4,-1/4]]
+        // Outer midpoints
+        [RT3/4,-3/8],
+        [RT3/2,0],
+        [RT3/4,3/8],
+        [-RT3/4,3/4],
+        [-RT3/2,0],
+        [-RT3/4,-3/8],
+    
+        // Finish inner hex
+        [0, -1/2],
+        [0, 1/2],
         ;
 
     function getNodePosX(glyphCenterX, glyphRadius, nodeIndex)
